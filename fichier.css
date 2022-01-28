@@ -1,0 +1,132 @@
+* {
+    overflow: auto;
+}
+body {  
+    background-color: #8BA1BB;
+    font-family: Arial;
+}   
+div.contenu {
+    background-color: white;
+    margin: 60px 8% 80px 8%;
+    padding: 0px 30px 30px 30px;
+    min-width: 350px;
+    box-shadow: 0px 0px 10px 8px rgba(0, 0, 0, 0.1);
+    overflow: visible;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 12px;
+    margin-top: 10px;
+}
+p.description {
+    text-align: center;
+    max-width: 400px;
+    display: inline-block;
+    font-size: 16px;
+}
+.center{  /* on donne un nom à une classe qui servira à centrer tout ce que l'on souhaite par la suite */
+    text-align: center;
+    width: 100%;
+}
+div.categorie{  
+    margin-bottom: 0px;
+    margin-top: 0px;
+    overflow: visible;
+}
+p.categorie {  
+    background-color: black;
+    color: white;
+    display: inline-block;
+    margin-bottom: 0px;
+    margin-top: -15px;
+    padding: 8px 11px 8px 11px;
+    font-weight: bold;
+    font-size: 16px;
+}
+div.separateur {
+    height: 1px;
+    background-color: black;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+div.infos {
+    position: relative;
+}
+table.infos {
+    position: absolute;
+    bottom: 0px;
+    background-color: #6C829DC0;
+    /*background-color: blue;*/
+    width: 100% ; 
+    color: white;
+    height: 75px;
+}   
+table.infos td {
+    text-align: center;
+    font-size: 14px;
+    vertical-align: top;
+}
+table.infos th {
+    font-size: 16px;
+    vertical-align: bottom;
+    padding-bottom: 6px;
+}
+img.infos {
+    display: block;
+    max-height: 400px;
+    object-fit: cover;
+    min-height: 300px;
+    background-color: lightgrey;
+}
+div.colonne {
+    width: 45%;
+    margin-top: 10px;
+
+}
+div.colonne h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 19px;
+    border-bottom: 6px solid #6C829D;
+    padding-bottom: 8px;
+}
+div.colonne1 {
+    display: inline-block;
+    margin-right: 10%;
+}
+div.colonne2 {
+    float: right;
+}
+div.ingredients p {
+    text-align: center;
+    border: 1px solid lightgrey;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 0;
+    font-size: 14px;
+}
+table.preparation p.numero {
+    text-align: center;
+    color: white;
+    background-color: #6C829D;
+    font-size: 14px;
+    font-weight: bold;
+    width: 25px;
+    height: 25px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    margin: 0;
+    padding-top: 4px;
+}
+table.preparation td {
+    vertical-align: top;
+}
+table.preparation td.preparation_etape {
+    padding-left: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+table.preparation tr {
+    height: 40px;
+}
